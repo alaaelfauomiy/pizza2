@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Navigation Menu Indicator | Codehal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/logo.svg">
+
+    <link rel="stylesheet" href="pizza.css" />
+    <style></style>
+  </head>
+  <body>
+
+  <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+  
+
+      <a class="navbar-brand" href="#" >
+        <img
+          src="img/pizza2.png"
+          width="90"
+          height="90"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        <b> <span>M</span>agic <span>P</span>izza </b>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navigation">
+          <ul>
+            <li class="list active">
+              <a href="#">
+                <span class="icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text">Home</span>
+                <span class="circle"></span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#book">
+                <span class="icon">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </span>
+                <span class="text">Book</span>
+                <span class="circle"></span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#offers">
+                <span class="icon">
+                  <ion-icon name="happy-outline"></ion-icon>
+                </span>
+                <span class="text">Offers</span>
+                <span class="circle"></span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#menu">
+                <span class="icon">
+                  <ion-icon name="cafe-outline"></ion-icon>
+                </span>
+                <span class="text">Menu</span>
+                <span class="circle"></span>
+              </a>
+            </li>
+            
+            <li class="list dropdown">
+
+              <a href="#" class="dropdown-toggle " role="button" data-toggle="dropdown" aria-expanded="false">
+                <span class="icon">
+                  <ion-icon name="enter-outline"></ion-icon>
+                </span>
+                <span class="text">Join </span>
+                <span class="circle"></span>
+              </a>
+                <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"><button type="button" class="btn  " data-toggle="modal" data-target="#exampleaModal">
+Sign In
+</button></a>
+            <a class="dropdown-item" href="#"><button type="button" class="btn  " data-toggle="modal" data-target="#exampleModal">
+Sign Up
+</button> </a>
+            </li>
+            <div class="indicator"></div>
+          </ul>
+        
+        </div>
+      
+      </div>
+
+   
+
+    </nav>
+   <!-- home -->
+
+   <div class="home" id="home">
+<div class="card bg-dark text-white">
+  <img src="img/pizza-restaurant-franchises.jpeg" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Welcome ! 
+    <p class="card-text">Enjoy Your Delicious Meal . . .</p>
+  
+  </div>
+</div>  
+   </div>
+
+
+<!-- book -->
+ <div class="container book" id="book">
+  <h1> Book A Table Online</h1>
+  <form >
+  <div class="row">
+    <div class="col">
+      <label for=""> Name</label>
+      <input type="text" class="form-control" placeholder=" name">
+    </div>
+    <div class="col">
+      <label for="">Phone</label>
+      <input type="number" class="form-control" placeholder="phone ">
+    </div>
+  </div>
+</form>
+<br> <br>
+  <form>
+  <div class="row">
+    <div class="col">
+      <label for=""> Chosse Day..</label>
+      <input type="Date" class="form-control" placeholder=" name">
+    </div>
+    <div class="col">
+      <label for="">Chosse Time..</label>
+      <input type="Time" class="form-control" placeholder="phone ">
+    </div>
+  </div>
+ 
+
+</form>
+<br> <br>
+<button type="button" class="btn btn-lg btn-block bookbtn">Book</button>
+
+ </div>
+
+
+
+
+<!-- offers -->
+  <div class="container offers" id="offers">
+    <h1>Today's Offers</h1>
+    <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/offerppp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pasta</h5>
+        <p class="card-text">100$ <del>150$</del></p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/offer1.png" class="card-img-top" alt="..." style="height: 400px;">
+      <div class="card-body">
+        <h5 class="card-title">pizza small </h5>
+        <p class="card-text">100$ <del>125$</del></p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/offer2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">pizza large</h5>
+        <p class="card-text">150$ <del>175$</del></p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/bergier.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">berger sandwatch </h5>
+        <p class="card-text">75$ <del>115$</del></p>
+      </div>
+    </div>
+  
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/offer11.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">berger sandwatch </h5>
+        <p class="card-text">75$ <del>115$</del></p>
+      </div>
+    </div>
+  
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="img/pasta22.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">berger sandwatch </h5>
+        <p class="card-text">75$ <del>115$</del></p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+  </div>
+  <!-- menu -->
+   
+    
+    <div class="container" id="menu"> 
+        <div class="title">
+            <h1>Special Food Menu</h1>
+            <p>
+               You will find everything you desire..
+            </p>
+        </div>
+        <div class="content">
+        
+
+            <div class="box_flex">
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$115.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza </h3>
+                        <hr>
+                        <section>$55.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$60.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$130.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$110.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/6.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$95.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/7.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$90.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/8.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$65.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/9.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$70.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/10.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger </h3>
+                        <hr>
+                        <section>$80.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/11.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$100.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/12.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$120.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$115.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza </h3>
+                        <hr>
+                        <section>$55.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$60.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$130.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$110.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/6.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$95.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/7.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$90.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/8.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$65.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/9.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$70.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/10.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger </h3>
+                        <hr>
+                        <section>$80.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/11.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$100.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/12.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$120.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$115.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza </h3>
+                        <hr>
+                        <section>$55.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$60.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$130.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <section>$110.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="box All featured">
+                    <div class="box_img">
+                        <img src="img/menu/6.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Pizza</h3>
+                        <hr>
+                        <section>$95.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/7.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$90.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/8.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$65.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/9.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pasta </h3>
+                        <hr>
+                        <section>$70.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/10.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger </h3>
+                        <hr>
+                        <section>$80.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/11.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$100.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box All Special">
+                    <div class="box_img">
+                        <img src="img/menu/12.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Berger</h3>
+                        <hr>
+                        <section>$120.00</section>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <a download="menu" href="img/menu.png" class="home1 btn-block"> download Menu </a>
+        
+
+    </div>
+
+
+
+
+
+<!-- signin -->
+<div class="modal fade" id="exampleaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleaModalLabel">Log In :</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  required >
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required min="8">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn  home1">Submit</button>
+</form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<!-- sign up -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleaModalLabel">Sign Up :</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  required >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  required >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  required >
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required min="8">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required min="8">
+  </div>
+
+  <button type="submit" class="btn  home1">Submit</button>
+</form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+ <div class="container-fluid text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                  
+                    <div class="col-6">
+                        <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Elharby  Street,  Damitta, Egypt</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+01152622883</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>alaamoatz@gmail.com</p>
+                       
+                    </div>
+                    <div class="col-6">
+                        <h4 class="section-title ff-secondary text-startfw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Saturday - Thurhday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Friday</h5>
+                        <p>12pM - 10PM</p>
+                    </div>
+               
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Magic pizza  </a>, All Right Reserved. 
+							
+					
+							Designed By Alaa Elfauomy<br><br>
+                         
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Facbook</a>
+                                <a href="">Instgram</a>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+      const list = document.querySelectorAll(".list");
+      function activeLink() {
+        list.forEach((item) => item.classList.remove("active"));
+        this.classList.add("active");
+      }
+      list.forEach((item) => item.addEventListener("click", activeLink));
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="pizza.js"></script>
+  </body>
+</html>
